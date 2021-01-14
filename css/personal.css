@@ -1,0 +1,180 @@
+/** 左侧导航栏样式 **/
+.menu-slide:hover, .menu-slide:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.sidebar .nav>li>span {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    line-height: 20px;
+}
+
+.snav > li > a:hover, .snav > li > a:focus {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.sidebar .snav>li>a {
+    position: relative;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/** 总区块样式 **/
+.personal{
+	margin-left: 0px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	margin-bottom: 15px;
+	box-shadow:0 0 2px 	#A9A9A9;
+	padding: 0px;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.padding-left-none{
+	padding-left: 0px;
+}	
+
+/** 主页用 **/
+.personal-widget{
+}
+
+.personal-portrait {
+	padding: 7px 3px 7px 3px;
+}	
+
+.personal-portrait>a {
+	color: black;
+	font-size: 30px;
+	font-style: bold;
+}
+
+.personal-article {
+	width: 70%;
+	padding: 5px 5px 0px 5px;
+	margin-right: 15px;
+}
+
+.personal-article>div>h2 {
+	font-weight: normal;
+}
+
+.personal-article-plat {
+}	
+
+.personal-article-block {
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.personal-article-block b {
+	font-size: 20px;
+	color: #333;
+	padding: 3px;
+}	
+	
+.personal-article-block p {
+	color: #333;
+	padding: 3px;
+}
+
+.personal-article-block b:hover, .personal-article-block p:hover{
+	color: 	#696969;
+}
+
+
+.nav-message {
+	overflow: hidden;
+	text-align: center;
+}
+
+.nav-message li {
+	float: left;
+	padding: 5px;
+	width: 100px;
+	color: #666;
+	list-style: none;
+	box-shadow:1px 0 2px #A9A9A9;
+	cursor: pointer;
+}
+
+.nav-message li:hover,.selected {
+	background-color:#ecebeb;
+	border-left: 1px solid #ecebeb;
+}
+
+.message-content {
+
+}
+
+.message-content-block{
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.message-content-block b{
+	color: #333;
+}
+
+.message-content-block a p:hover, .message-content-block a b:hover{
+	color: #FF5800;
+}
+
+/** edit用 **/
+.msg-title {
+	padding: 10px;
+}	
+
+.msg-title b {
+	color: #000000;
+	font-size: 20px;
+}
+
+.msg-title em:hover {
+	color: #000000;
+}
+
+.msg-plat {
+	margin: 20px;
+	display: flex;
+}
+
+.msg-key {
+	width: 50px;
+	padding-right: 10px;
+}
+
+.msg-content {
+}	
+
+.msg-key span, .msg-content span {
+	color: #333;
+	font-size: 15px;
+}
+
+.edit-plat {
+    margin: 25px;
+	display: flex;
+}
+
+.edit-plat label {
+	width: 50px;
+    padding-right: 10px;
+    color: #333;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.edit-content {
+}	
+
+.edit-key span, .edit-content span {
+	
+}

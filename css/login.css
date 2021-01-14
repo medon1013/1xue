@@ -1,0 +1,175 @@
+.g-frame {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .g-frame .m-header {
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #D3D3D3;
+    text-align: center;
+    line-height: 1rem;
+    color: #333;
+    font-size: 0.32rem;
+    position: relative;
+    padding: 0 0.34rem; }
+    .g-frame .m-header .u-close {
+      width: 0.24rem;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0.34rem;
+      background: url(../img/u-cxicon2.png) no-repeat;
+      background-position: 0 center;
+      background-size: 0.24rem 0.24rem; }
+
+.m-forms-box {
+  width: 40%; }
+  .m-forms-box .u-import-box {
+    width: 100%;
+    height: 0.2rem;
+    border: 1px solid #DDDDDD;
+    border-radius: 0.05rem;
+    margin-bottom: 0.24rem;
+    position: relative; }
+    .m-forms-box .u-import-box .u-icon {
+      width: 10%;
+      height: 100%;
+      display: table-cell;
+     vertical-align: middle; }
+    .m-forms-box .u-import-box .u-field1 {
+      width: 80%;
+      height: 100%;
+      float: left; }
+      .m-forms-box .u-import-box .u-field1 input {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .m-forms-box .u-import-box .u-field2 {
+      width: 66%;
+      height: 100%;
+      float: left; }
+      .m-forms-box .u-import-box .u-field2 input {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .m-forms-box .u-import-box .u-field3 {
+      width: 60%;
+      height: 100%;
+      float: left; }
+      .m-forms-box .u-import-box .u-field3 input {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .m-forms-box .u-import-box .u-yz-img {
+      width: 24%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .m-forms-box .u-import-box .u-yz-img #verifyCanvas {
+        width: 100%;
+        height: 100%;
+        display: block; }
+    .m-forms-box .u-import-box .u-clear-icon {
+      width: 10%;
+      height: 100%;
+      display: none; }
+      .m-forms-box .u-import-box .u-clear-icon i {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(../img/u-cxicon2.png) no-repeat;
+        background-size: 0.24rem 0.24rem;
+        background-position: center center; }
+    .m-forms-box .u-import-box .u-yz-box {
+      width: 30%;
+      height: 100%;
+      padding: 0.2rem 0;
+      float: left;
+      color: #333; }
+      .m-forms-box .u-import-box .u-yz-box #yz-btn {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+        border-left: 1px solid #ddd;
+        font-size: 0.14rem;
+        background: #fff; }
+  .m-forms-box .u-btn-box {
+    width: 100%;
+    background: #DDDDDD;
+    color: #fff;
+    border-radius: 0.05rem;
+    height: 0.8rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.8rem;
+    border-style: none;
+    outline: none;
+    display: block;
+    margin-top: 1rem; }
+  .m-forms-box .u-btn-box.active {
+    background: #12C286; }
+
+.u-field1 + .u-clear-icon {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.u-field2 + .u-clear-icon {
+  position: absolute;
+  right: 22%;
+  top: 0; }
+
+.u-field3 + .u-clear-icon {
+  position: absolute;
+  right: 30%;
+  top: 0; }
+
+.u-import-box:nth-child(1) .u-icon-logo {
+  background: url(../img/zhanghu.png) no-repeat;
+  background-size: 0.28rem 0.28rem;
+  background-position: center center; }
+
+.u-import-box:nth-child(2) .u-icon-logo {
+  background: url(../img/yanzheng.png) no-repeat;
+  background-size: 0.28rem 0.28rem;
+  background-position: center center; }
+
+.u-import-box:nth-child(3) .u-icon-logo {
+  background: url(../img/password.png) no-repeat;
+  background-size: 0.28rem 0.28rem;
+  background-position: center center; }
+
+.u-icon {
+  float: left; }
+  .u-icon i {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.m-quick-nav {
+  padding: 0 0.34rem;
+  margin-top: .5rem;
+  font-size: .12rem;
+  text-align: center; }
+  .m-quick-nav span, .m-quick-nav a {
+    display: block;
+    margin-bottom: 0.1rem;
+    color: #C81522; }
+
+.error {
+  width: 2.66rem;
+  height: 0.72rem;
+  text-align: center;
+  line-height: 0.72rem;
+  color: white;
+  background-color: #707070;
+  font-size: 0.24rem;
+  border-radius: 0.35rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.82rem;
+  border: 1px solid white;
+  padding: 0 0.3rem 0 0.3rem; }
